@@ -1,0 +1,7 @@
+app = "ten-app-cua-ong" # Thay tên app của ông vào đây
+primary_region = "sin"  # Chọn Singapore cho gần và mượt
+
+[build]
+  dockerfile = "Dockerfile"
+
+# Xóa sạch phần [http_service] mặc định đi vì mình chỉ cần SSH qua Tailscale, không cần mở port web ra ngoài.
